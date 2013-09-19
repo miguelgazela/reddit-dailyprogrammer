@@ -9,9 +9,8 @@ def get_operational_days():
     operational_days = 0
 
     for i in range(1, days+1):
-        if (i % 3 == 0 or i % 100 == 0 or i % 14 == 0):
-            continue
-        operational_days += 1
+        operational_days += ((i % 3 != 0 and i % 100 != 0 and i % 14 != 0)
+            and 1 or 0)
 
     return operational_days
 
