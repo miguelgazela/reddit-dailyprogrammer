@@ -3,6 +3,7 @@
 import requests
 import webbrowser
 import re
+import os
 from bs4 import BeautifulSoup
 
 BASE_URL = "http://www.reddit.com/r/dailyprogrammer/new/"
@@ -14,6 +15,11 @@ def get_soup(url):
 
 def get_page_challenges(soup):
     return [challenge for challenge in soup.find_all('div', class_='thing')]
+
+
+def get_completed_challenges():
+    regex = re.compile("^challenge_(\d{1,}).py$")
+    return [f[10:-3] for f in os.listdir(os.getcwd()) if regex.match(f)]
 
 
 def build_challenges(page_challenges):
@@ -44,8 +50,14 @@ def build_challenges(page_challenges):
 def main():
     page_challenges = get_page_challenges(get_soup(BASE_URL))
     challenges = build_challenges(page_challenges)
+    completed = get_completed_challenges()
+
+    # chooses the first one that hasn't been completed
     for c in challenges:
-        print c
+        if c['number'] not in completed:
+            print c
+            webbrowser.open_new("".join(["http://www.reddit.com",c['url']]))
+            break
 
 if __name__ == "__main__":
     main()
