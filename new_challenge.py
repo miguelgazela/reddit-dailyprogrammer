@@ -58,7 +58,8 @@ def main():
     difficulty = sys.argv[1]
 
     if difficulty.lower() not in ['easy', 'intermediate', 'hard']:
-        print "Invalid type of difficulty. Available choices: easy, intermediate or hard."
+        print "Invalid type of difficulty. "\
+            "Available choices: easy, intermediate or hard."
         exit(-1)
 
     # process completed files and get new challenges from reddit
@@ -76,7 +77,9 @@ def main():
         for c in challenges:
             if c['number'] not in completed and c['difficulty'] == difficulty:
                 print c
-                webbrowser.open_new("".join(["http://www.reddit.com",c['url']]))
+                webbrowser.open_new("".join([
+                    "http://www.reddit.com",
+                    c['url']]))
                 exit()
 
         # no challenges available in the current page, go to next page
