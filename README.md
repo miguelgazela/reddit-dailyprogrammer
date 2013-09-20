@@ -3,6 +3,7 @@ reddit-dailyprogrammer
 
 Repo with solutions to problems posted in the daily programmer subreddit.
 
+To open a new challenge page automatically use the following command: `python new_challenge.py <difficulty>` where difficulty can be easy, intermediate or hard.
 
 Challenges completed
 ====================
