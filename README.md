@@ -14,6 +14,8 @@ Challenges completed
 
 [Challenge #104 (Easy) Powerplant Simulation](http://www.reddit.com/r/dailyprogrammer/comments/11paok/10182012_challenge_104_easy_powerplant_simulation/) - [solution](https://github.com/miguelgazela/reddit-dailyprogrammer/blob/master/challenge_104.py)
 
+[Challenge #132 (Easy) Greatest common divisor](http://www.reddit.com/r/dailyprogrammer/comments/1hvh6u/070813_challenge_132_easy_greatest_common_divisor/) - [solution](https://github.com/miguelgazela/reddit-dailyprogrammer/blob/master/challenge_132.py)
+
 [Challenge #134 (Easy) N-Divisible Digits](http://www.reddit.com/r/dailyprogrammer/comments/1jtryq/080613_challenge_134_easy_ndivisible_digits/) - [solution](https://github.com/miguelgazela/reddit-dailyprogrammer/blob/master/challenge_134.py)
 
 [Challenge #135 (Easy) Arithmetic Equations](http://www.reddit.com/r/dailyprogrammer/comments/1k7s7p/081313_challenge_135_easy_arithmetic_equations/) - [solution](https://github.com/miguelgazela/reddit-dailyprogrammer/blob/master/challenge_135.py)
