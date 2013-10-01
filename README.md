@@ -14,7 +14,9 @@ Challenges completed
 
 [Challenge #104 (Easy) Powerplant Simulation](http://www.reddit.com/r/dailyprogrammer/comments/11paok/10182012_challenge_104_easy_powerplant_simulation/) - [solution](https://github.com/miguelgazela/reddit-dailyprogrammer/blob/master/challenge_104.py)
 
-[Challenge #131 (Easy) Who tests the tests?](http://www.reddit.com/r/dailyprogrammer/comments/1heozl/070113_challenge_131_easy_who_tests_the_tests/) - [solution](https://github.com/miguelgazela/reddit-dailyprogrammer/blob/master/challenge_131.py)
+[Challenge #130 [Easy] Roll the Dies](http://www.reddit.com/r/dailyprogrammer/comments/1givnn/061713_challenge_130_easy_roll_the_dies/) - [solution](https://github.com/miguelgazela/reddit-dailyprogrammer/blob/master/challenge_130.py)
+
+[Challenge #131 (Easy) Who tests the tests?](http://www.reddit.com/r/dailyprogrammer/comments/1heozl/070113_challenge_131_easy_who_tests_the_tests/g) - [solution](https://github.com/miguelgazela/reddit-dailyprogrammer/blob/master/challenge_131.py)
 
 [Challenge #132 (Easy) Greatest common divisor](http://www.reddit.com/r/dailyprogrammer/comments/1hvh6u/070813_challenge_132_easy_greatest_common_divisor/) - [solution](https://github.com/miguelgazela/reddit-dailyprogrammer/blob/master/challenge_132.py)
 
